@@ -21,7 +21,7 @@ import com.dl.notebook.common.base.Page;
  * @date:2018-08-10 09:21:48
  **/
 @RestController
-@RequestMapping("adminRole")
+@RequestMapping("/api/adminRole")
 public class AdminRoleController {
 	@SuppressWarnings("unused")
 	private final Log logger = LogFactory.getLog(getClass());

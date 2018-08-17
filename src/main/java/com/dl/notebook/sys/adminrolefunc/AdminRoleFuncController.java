@@ -19,7 +19,7 @@ import com.dl.notebook.sys.adminfunc.AdminFunc;
  * @date:2018-08-10 09:21:48
  **/
 @RestController
-@RequestMapping("adminRoleFunc")
+@RequestMapping("/api/adminRoleFunc")
 public class AdminRoleFuncController {
 	@SuppressWarnings("unused")
 	private final Log logger = LogFactory.getLog(getClass());

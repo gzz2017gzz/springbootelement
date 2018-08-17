@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date:2018-08-10 09:21:48
  **/
 @RestController
-@RequestMapping("adminUserRole")
+@RequestMapping("/api/adminUserRole")
 public class AdminUserRoleController {
 	@SuppressWarnings("unused")
 	private final Log logger = LogFactory.getLog(getClass());

@@ -19,7 +19,7 @@ import com.dl.notebook.sys.admindept.AdminDept;
  * @date:2018-08-10 09:21:48
  **/
 @RestController
-@RequestMapping("adminRoleDept")
+@RequestMapping("/api/adminRoleDept")
 public class AdminRoleDeptController {
 	@SuppressWarnings("unused")
 	private final Log logger = LogFactory.getLog(getClass());

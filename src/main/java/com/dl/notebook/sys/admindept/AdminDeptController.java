@@ -20,7 +20,7 @@ import com.dl.notebook.common.ResInfo;
  * @date:2018-08-10 09:21:48
  **/
 @RestController
-@RequestMapping("adminDept")
+@RequestMapping("/api/adminDept")
 public class AdminDeptController {
 	@SuppressWarnings("unused")
 	private final Log logger = LogFactory.getLog(getClass());
