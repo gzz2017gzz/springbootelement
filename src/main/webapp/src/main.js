@@ -6,7 +6,8 @@ import router from './router'
 // import ElementUI from 'element-ui'
 import http from './utils/http';
 import 'element-ui/lib/theme-chalk/index.css'
-
+import installFilter from './common/vue-filters';
+installFilter(Vue);
 Vue.config.productionTip = true
 Vue.$http = http;
 Vue.prototype.$http = http;

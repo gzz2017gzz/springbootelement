@@ -11,7 +11,7 @@
               <el-menu default-active="1" class="el-menu-vertical-demo" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b" router>
                 <el-submenu v-for="menu in menus" :index="menu.func_id + ''" :key="menu.func_id" :title="menu.tip">
                   <template slot="title"><i :class="menu.icon"></i>{{menu.name}}</template>
-                  <el-menu-item v-for="sub in menu.children" :key="sub.id" :index="sub.url" :title="sub.tip">{{sub.name}}</el-menu-item>
+                  <el-menu-item v-for="sub in menu.children" :key="sub.id" :index="sub.url" :title="sub.tip" :class="sub.icon"  >{{sub.name}}</el-menu-item>
                 </el-submenu>
               </el-menu>
             </el-row>
@@ -22,7 +22,7 @@
         <el-main>
           <router-view/>
         </el-main>
-        <el-footer align="center">版权所有:gzz</el-footer>
+        <el-footer align="center" height="30px">版权所有:www.gaozz.club</el-footer>
       </el-container>
     </el-container>
   </el-container>

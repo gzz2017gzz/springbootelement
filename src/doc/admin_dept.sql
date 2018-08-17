@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : master
+Source Server         : 测试副本(localhost)
 Source Server Version : 50528
 Source Host           : localhost:3306
 Source Database       : test
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50528
 File Encoding         : 65001
 
-Date: 2018-08-16 21:52:08
+Date: 2018-08-17 14:21:55
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -62,10 +62,10 @@ CREATE TABLE `admin_func` (
 -- ----------------------------
 -- Records of admin_func
 -- ----------------------------
-INSERT INTO `admin_func` VALUES ('1', '1', '', 'fa fa-laptop', '系统菜单', '0', '系统设置', '', '1', '', '1');
-INSERT INTO `admin_func` VALUES ('2', '1', '', 'el-icon-document', '用户管理', '1', '用户管理', null, '1', '/adminSysUser', '2');
-INSERT INTO `admin_func` VALUES ('3', '1', '', 'el-icon-document', '新部门管理', '1', '部门管理', null, '1', '/adminDept', '3');
-INSERT INTO `admin_func` VALUES ('4', '1', '', 'el-icon-document', '角色管理', '1', '角色管理', null, '1', '/adminRole', '4');
+INSERT INTO `admin_func` VALUES ('1', '1', '', 'el-icon-date', '系统菜单', '0', '系统设置', '', '1', '', '1');
+INSERT INTO `admin_func` VALUES ('2', '1', '', 'el-icon-sold-out', '用户管理', '1', '用户管理', null, '1', '/adminSysUser', '2');
+INSERT INTO `admin_func` VALUES ('3', '1', '', 'el-icon-date', '机构管理', '1', '部门管理', null, '1', '/adminDept', '3');
+INSERT INTO `admin_func` VALUES ('4', '1', '', 'el-icon-phone', '角色管理', '1', '角色管理', null, '1', '/adminRole', '4');
 INSERT INTO `admin_func` VALUES ('5', '1', '', 'el-icon-document', '菜单管理', '1', '菜单管理', null, '1', '/adminMenu', '5');
 
 -- ----------------------------
