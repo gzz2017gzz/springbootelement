@@ -8,7 +8,7 @@
         <el-aside width="200px">
           <el-col :span="24">
             <el-row class="tac">
-              <el-menu default-active="2" class="el-menu-vertical-demo" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b" router>
+              <el-menu default-active="1" class="el-menu-vertical-demo" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b" router>
                 <el-submenu v-for="menu in menus" :index="menu.func_id + ''" :key="menu.func_id" :title="menu.tip">
                   <template slot="title"><i :class="menu.icon"></i>{{menu.name}}</template>
                   <el-menu-item v-for="sub in menu.children" :key="sub.id" :index="sub.url" :title="sub.tip">{{sub.name}}</el-menu-item>
